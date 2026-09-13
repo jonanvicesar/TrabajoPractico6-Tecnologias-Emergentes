@@ -1,0 +1,46 @@
+body {
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+#login-form {
+  max-width: 300px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 1.5rem;
+}
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 0.6rem;
+  background-color: #2980b9;
+  color: white;
+  cursor: pointer;
+}
+#mensaje {
+  text-align: center;
+  color: #c0392b;
+}
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.producto-card {
+  background: white;
+  padding: 1rem;
+  width: 200px;
+}
+.oculto {
+  display: none;
+}
